@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'GangwonEduHyeonokT_OTFMediumA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduHyeonokT_OTFMediumA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*h1의 설정*/
+h1 {
+    color:hsl(240, 100%, 87%); 
+    background-color: #222020;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-style: double;
+    border-width: 7px;
+    border-radius: 50px;
+    font-size: 35px;
+    box-shadow: 10px 10px 20px #9ac3ffab;
+    font-family: PyeongChangPeace-bold;
+    }
+/*h1에 마우스를 올렸을 때*/
+h1:hover {
+    background-color: aliceblue;
+}
+/*h2의 설정*/
+h2 {
+    color: #9785fcab;
+    background-color: rgba(163, 163, 163, 0.288);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-style: double;
+    border-radius: 10px;
+}
+
+/*h2에 첫글자*/
+h2::first-letter {
+    font-size: 44px;
+    background-color:rgba(201, 179, 243, 0.445)  ;
+    border-radius: 20px;
+}
+/*h2에 마우스를 올렸을 때*/
+h2:hover {
+    color:rgb(42, 73, 252);
+    background-color: rgb(255, 255, 255);
+}
+
+/*p의 설정*/
+p {
+    font-size: 26px;
+    text-indent: 14px;
+    line-height: 100%;
+    font-family: GangwonEduHyeonokT_OTFMediumA;
+}
