@@ -15,7 +15,7 @@
 /*h1의 설정*/
 h1 {
     color:hsl(240, 100%, 87%); 
-    background-color: #222020;
+    background-color:  white;
     text-align: center;
     text-decoration: underline;
     padding-top: 20px;
@@ -29,7 +29,7 @@ h1 {
     }
 /*h1에 마우스를 올렸을 때*/
 h1:hover {
-    background-color: aliceblue;
+    background-color: rgb(233, 244, 253);
 }
 /*h2의 설정*/
 h2 {
@@ -50,7 +50,7 @@ h2::first-letter {
 }
 /*h2에 마우스를 올렸을 때*/
 h2:hover {
-    color:rgb(42, 73, 252);
+    color:rgb(127, 127, 236);
     background-color: rgb(255, 255, 255);
 }
 
@@ -60,4 +60,5 @@ p {
     text-indent: 14px;
     line-height: 100%;
     font-family: GangwonEduHyeonokT_OTFMediumA;
+    border-style:hidden;
 }
